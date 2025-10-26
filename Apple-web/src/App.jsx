@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
+import React from 'react'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
+import ProductViewer from './components/ProductViewer'
 
 function App() {
 
@@ -9,6 +11,7 @@ function App() {
   <main>
     <NavBar/>
     <Hero/>
+    <ProductViewer/>
   </main>
   )
 }
